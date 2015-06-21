@@ -1,0 +1,47 @@
+*.tar.gz
+
+*.exe
+bluesteel-qt
+src/bluesteeld
+BlueSteel-Qt.app
+
+src/qt/*.moc
+src/qt/moc_*.cpp
+src/qt/forms/ui_*.h
+src/qt/test/moc*.cpp
+
+.libs
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.pyc
+*.o
+*.o-*
+*.patch
+*.a
+
+*.log
+*.trs
+*.dmg
+
+*.json.h
+*.raw.h
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
+
